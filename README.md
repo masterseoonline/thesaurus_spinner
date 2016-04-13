@@ -1,4 +1,4 @@
-# thesaurus_spinner
+# thesaurus spinner
 Synyonim replacer based on public DICT dictionaries
 
 Prototype !
