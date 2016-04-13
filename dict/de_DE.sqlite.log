@@ -1,0 +1,112 @@
+65839 words
+Types: Array
+(
+)
+Array
+(
+    [] => Array
+        (
+            [] => -
+            [assertiv] => -
+            [behauptend] => -
+            [etwas nicht gesagt haben] => -
+            [für etwas nicht verantwortlich sein] => -
+            [ich war das nicht!] => -
+            [nicht auf jemandes Mist gewachsen sein] => -
+            [nichts dafür können] => -
+            [ohne Einfluss sein] => -
+        )
+
+    [grobe betrachtung] => Array
+        (
+            [grobe Betrachtung] => -
+            [Makroskopie] => -
+            [mit dem bloßen Auge erkennbare Strukturen] => -
+        )
+
+    [#] => Array
+        (
+            [#] => -
+            [Gartenzaun] => -
+            [Lattenzaun] => -
+            [Rautenzeichen] => -
+        )
+
+    [$] => Array
+        (
+            [$] => -
+            [Dollar] => -
+            [Devisen] => -
+            [finanzielle Mittel] => -
+            [Geld] => -
+            [Kapital] => -
+            [Valuta] => -
+            [Währung] => -
+            [Zahlungsmittel] => -
+        )
+
+    [%] => Array
+        (
+            [%] => -
+            [Prozent] => -
+            [v. H.] => -
+            [von Hundert] => -
+            [Einheit] => -
+            [Maß] => -
+            [Maßeinheit] => -
+        )
+
+    [&] => Array
+        (
+            [&] => -
+            [Et-Zeichen] => -
+            [Firmen-Und] => -
+            [kaufmännisches Und] => -
+            [Kaufmanns-Und] => -
+            [Kaufmannsund] => -
+            [Und-Zeichen] => -
+            [Letter] => -
+            [Schriftzeichen] => -
+            [Symbol] => -
+        )
+
+    ['] => Array
+        (
+            ['] => -
+            [Fuß] => -
+            [Einheit] => -
+            [Maß] => -
+            [Maßeinheit] => -
+        )
+
+    [(] => Array
+        (
+            [(] => -
+            [Klammer auf] => -
+            [öffnende runde Klammer] => -
+        )
+
+    [)] => Array
+        (
+            [)] => -
+            [Klammer zu] => -
+            [schließende runde Klammer] => -
+        )
+
+    [) bemühen] => Array
+        (
+            [] => -
+            [anstreben] => -
+            [anstrengen] => -
+            [eifern] => -
+            [Einsatz zeigen] => -
+            [Mühe geben] => -
+            [powern] => -
+            [ranklotzen] => -
+            [reinklotzen] => -
+            [ringen] => -
+            [streben] => -
+            [vollen Einsatz zeigen] => -
+        )
+
+)

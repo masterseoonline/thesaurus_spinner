@@ -1,0 +1,9 @@
+services:
+    # 
+    # thesaurus
+    #
+    thesaurus_db:
+        class:  EcService\Tools\Thesaurus\ThesaurusDb
+    twig.thesaurusExtension:
+        class:  EcService\Tools\Thesaurus\ThesaurusTwigExtension
+        arguments: [ "@thesaurus_db", "@logger" ]

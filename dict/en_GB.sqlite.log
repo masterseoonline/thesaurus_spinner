@@ -1,0 +1,87 @@
+141339 words
+Types: Array
+(
+)
+Array
+(
+    ['hood] => Array
+        (
+            [vicinity] => noun
+            [locality] => noun
+            [neck of the woods] => noun
+            [neighbourhood] => noun
+        )
+
+    ['s gravenhage] => Array
+        (
+            [the hague] => noun
+            ['s gravenhage] => noun
+            [city] => noun
+            [den haag] => noun
+            [metropolis] => noun
+            [urban centre] => noun
+        )
+
+    ['tween] => Array
+        (
+            [between] => adv
+        )
+
+    ['tween decks] => Array
+        (
+            [between decks] => adv
+        )
+
+    [0] => Array
+        (
+            [zero] => noun
+            [cardinal] => adj
+            [cipher] => noun
+            [cypher] => noun
+            [digit] => noun
+            [figure] => noun
+            [nought] => noun
+        )
+
+    [1] => Array
+        (
+            [one] => noun
+            [ane] => adj
+            [cardinal] => adj
+            [i] => noun
+            [ace] => noun
+            [digit] => noun
+            [figure] => noun
+            [single] => noun
+            [unity] => noun
+        )
+
+    [1 chronicles] => Array
+        (
+            [i chronicles] => noun
+            [1 chronicles] => noun
+            [book] => noun
+        )
+
+    [1 esdras] => Array
+        (
+            [i esdra] => noun
+            [1 esdras] => noun
+            [book] => noun
+        )
+
+    [1 kings] => Array
+        (
+            [i kings] => noun
+            [1 kings] => noun
+            [book] => noun
+        )
+
+    [1 maccabees] => Array
+        (
+            [i maccabees] => noun
+            [1 maccabees] => noun
+            [book] => noun
+        )
+
+)

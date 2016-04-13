@@ -1,0 +1,23 @@
+{
+    "name": "elvisciotti/thesaurus_spinner",
+    "type": "library",
+    "description": "thesaurus_spinner",
+    "keywords": ["php"],
+    "homepage": "https://github.com/elvisciotti/thesaurus_spinner",
+    "license": "GPL-3.0",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Elvis Ciotti",
+            "email": "info@softwareengineeringsolutions.co.uk"
+        }
+    ],
+    "require": {
+         "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": { 
+            "EcService/Tools/Thesaurus": "EcService\\Tools\\Thesaurus"
+        }
+    }
+}

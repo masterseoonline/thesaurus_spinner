@@ -1,0 +1,108 @@
+25851 words
+Types: Array
+(
+)
+Array
+(
+    [a] => Array
+        (
+            [per] => cong.
+            [verso] => prep.
+        )
+
+    [abate] => Array
+        (
+            [priore] => s.m.
+            [superiore] => s.m.
+        )
+
+    [abbacchiare] => Array
+        (
+            [avvilire] => v.
+            [deprimere] => v.
+        )
+
+    [abbacchiarsi] => Array
+        (
+            [abbattersi] => v.
+            [abbiosciarsi] => v.
+            [accasciarsi] => v.
+            [avvilirsi] => v.
+            [deprimersi] => v.
+            [disperarsi] => v.
+            [scoraggiarsi] => v.
+            [sgomentarsi] => v.
+        )
+
+    [abbacchiato] => Array
+        (
+            [abbattuto] => agg.
+            [accasciato] => agg.
+            [afflitto] => agg.
+            [affranto] => agg.
+            [annientato] => agg.
+            [costernato] => agg.
+            [demoralizzato] => agg.
+            [depresso] => agg.
+            [in crisi] => agg.
+            [infelice] => agg.
+            [malinconico] => agg.
+            [mogio] => agg.
+            [prostrato] => agg.
+            [sconfortato] => agg.
+            [scoraggiato] => agg.
+            [scorato] => agg.
+            [sfiduciato] => agg.
+            [triste] => agg.
+        )
+
+    [abbacchio] => Array
+        (
+            [agnello] => s.m.
+        )
+
+    [abbacinamento] => Array
+        (
+            [abbagliamento] => s.m.
+            [abbaglio] => s.m.
+            [miraggio] => s.m.
+            [visione] => s.m.
+        )
+
+    [abbacinare] => Array
+        (
+            [abbagliare] => v.
+            [accecare] => v.
+            [frastornare] => v.
+            [illudere] => v.
+            [imbrogliare] => v.
+            [ingannare] => v.
+            [offuscare] => v.
+            [plagiare] => v.
+            [sedurre] => v.
+        )
+
+    [abbadia] => Array
+        (
+            [abbazia] => s.f.
+            [badia] => s.f.
+        )
+
+    [abbagliante] => Array
+        (
+            [accecante] => agg.
+            [brillante] => agg.
+            [folgorante] => agg.
+            [fulgido] => agg.
+            [luccicante] => agg.
+            [lucente] => agg.
+            [luminoso] => agg.
+            [rilucente] => agg.
+            [risplendente] => agg.
+            [scintillante] => agg.
+            [sfavillante] => agg.
+            [sfolgorante] => agg.
+            [splendente] => agg.
+        )
+
+)

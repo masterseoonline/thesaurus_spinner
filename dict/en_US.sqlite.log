@@ -1,0 +1,93 @@
+145866 words
+Types: Array
+(
+)
+Array
+(
+    ['s gravenhage] => Array
+        (
+            [The Hague] => noun
+            ['s Gravenhage] => noun
+            [Den Haag] => noun
+            [city] => noun
+            [metropolis] => noun
+            [urban center] => noun
+        )
+
+    ['tween decks] => Array
+        (
+            [between decks] => adv
+        )
+
+    [.22] => Array
+        (
+            [twenty-two] => noun
+            [firearm] => noun
+            [piece] => noun
+            [small-arm] => noun
+        )
+
+    [.22-calibre] => Array
+        (
+            [.22 caliber] => adj
+            [.22-caliber] => adj
+            [.22 calibre] => adj
+            [diameter] => adj
+            [diam] => adj
+        )
+
+    [.22 caliber] => Array
+        (
+            [.22-caliber] => adj
+            [.22 calibre] => adj
+            [.22-calibre] => adj
+            [diameter] => adj
+            [diam] => adj
+        )
+
+    [.22 calibre] => Array
+        (
+            [.22 caliber] => adj
+            [.22-caliber] => adj
+            [.22-calibre] => adj
+            [diameter] => adj
+            [diam] => adj
+        )
+
+    [.38-caliber] => Array
+        (
+            [.38 caliber] => adj
+            [.38 calibre] => adj
+            [.38-calibre] => adj
+            [diameter] => adj
+            [diam] => adj
+        )
+
+    [.38-calibre] => Array
+        (
+            [.38 caliber] => adj
+            [.38-caliber] => adj
+            [.38 calibre] => adj
+            [diameter] => adj
+            [diam] => adj
+        )
+
+    [.38 caliber] => Array
+        (
+            [.38-caliber] => adj
+            [.38 calibre] => adj
+            [.38-calibre] => adj
+            [diameter] => adj
+            [diam] => adj
+        )
+
+    [.38 calibre] => Array
+        (
+            [.38 caliber] => adj
+            [.38-caliber] => adj
+            [.38-calibre] => adj
+            [diameter] => adj
+            [diam] => adj
+        )
+
+)

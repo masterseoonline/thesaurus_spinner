@@ -1,0 +1,156 @@
+36204 words
+Types: Array
+(
+)
+Array
+(
+    [Afrique] => Array
+        (
+            [continent] => ?
+            [vertueux] => ?
+            [pur] => ?
+            [vierge] => ?
+            [pudique] => ?
+            [prude] => ?
+            [angélique] => ?
+            [tempérant] => ?
+            [terre] => ?
+            [Amériques] => ?
+            [Antarctique] => ?
+            [Asie] => ?
+            [Australie] => ?
+            [Eurasie] => ?
+            [Europe] => ?
+            [Océanie] => ?
+        )
+
+    [Amati] => Array
+        (
+            [violon] => ?
+            [viole] => ?
+            [alto] => ?
+            [Stradivarius] => ?
+        )
+
+    [Amériques] => Array
+        (
+            [continent] => ?
+            [vertueux] => ?
+            [pur] => ?
+            [vierge] => ?
+            [pudique] => ?
+            [prude] => ?
+            [angélique] => ?
+            [tempérant] => ?
+            [terre] => ?
+            [Afrique] => ?
+            [Antarctique] => ?
+            [Asie] => ?
+            [Australie] => ?
+            [Eurasie] => ?
+            [Europe] => ?
+            [Océanie] => ?
+        )
+
+    [Angélus] => Array
+        (
+            [oraison] => ?
+            [prière] => ?
+            [Orémus] => ?
+            [Pater] => ?
+            [Ave] => ?
+            [secrète] => ?
+            [péroraison] => ?
+            [discours] => ?
+        )
+
+    [Antarctique] => Array
+        (
+            [continent] => ?
+            [vertueux] => ?
+            [pur] => ?
+            [vierge] => ?
+            [pudique] => ?
+            [prude] => ?
+            [angélique] => ?
+            [tempérant] => ?
+            [terre] => ?
+            [Afrique] => ?
+            [Amériques] => ?
+            [Asie] => ?
+            [Australie] => ?
+            [Eurasie] => ?
+            [Europe] => ?
+            [Océanie] => ?
+        )
+
+    [Arctique] => Array
+        (
+            [nord] => ?
+            [septentrion] => ?
+            [boréal] => ?
+            [polaire] => ?
+            [nordique] => ?
+        )
+
+    [Ascension] => Array
+        (
+            [assomption] => ?
+            [élévation] => ?
+        )
+
+    [Asie] => Array
+        (
+            [continent] => ?
+            [vertueux] => ?
+            [pur] => ?
+            [vierge] => ?
+            [pudique] => ?
+            [prude] => ?
+            [angélique] => ?
+            [tempérant] => ?
+            [terre] => ?
+            [Afrique] => ?
+            [Amériques] => ?
+            [Antarctique] => ?
+            [Australie] => ?
+            [Eurasie] => ?
+            [Europe] => ?
+            [Océanie] => ?
+        )
+
+    [Australie] => Array
+        (
+            [continent] => ?
+            [vertueux] => ?
+            [pur] => ?
+            [vierge] => ?
+            [pudique] => ?
+            [prude] => ?
+            [angélique] => ?
+            [tempérant] => ?
+            [terre] => ?
+            [Afrique] => ?
+            [Amériques] => ?
+            [Antarctique] => ?
+            [Asie] => ?
+            [Eurasie] => ?
+            [Europe] => ?
+            [Océanie] => ?
+        )
+
+    [Ave] => Array
+        (
+            [salut!] => nom
+            [salutations] => nom
+            [oraison] => nom
+            [prière] => nom
+            [Angélus] => nom
+            [Orémus] => nom
+            [Pater] => nom
+            [secrète] => nom
+            [péroraison] => nom
+            [discours] => nom
+        )
+
+)

@@ -1,0 +1,86 @@
+21846 words
+Types: Array
+(
+)
+Array
+(
+    [alá] => Array
+        (
+            [Dios] => -
+            [Todopoderoso] => -
+            [Jehová] => -
+            [Altísimo] => -
+        )
+
+    [altísimo] => Array
+        (
+            [Dios] => -
+            [Todopoderoso] => -
+            [Jehová] => -
+            [Alá] => -
+            [Yahvé] => -
+            [Señor] => -
+            [Creador] => -
+            [Padre] => -
+        )
+
+    [antiguo testamento] => Array
+        (
+            [Biblia] => -
+            [Sagrada Escritura] => -
+            [Nuevo Testamento] => -
+        )
+
+    [a bocajarro] => Array
+        (
+            [a quemarropa] => -
+            [bruscamente] => -
+            [directamente] => -
+            [sin rodeos] => -
+        )
+
+    [a dios gracias] => Array
+        (
+            [afortunadamente] => -
+            [felizmente] => -
+            [por fortuna] => -
+            [gracias a Dios] => -
+        )
+
+    [a distancia] => Array
+        (
+            [aparte] => -
+            [lejos] => -
+            [apartado] => -
+            [separado] => -
+        )
+
+    [a espaldas] => Array
+        (
+            [atrás] => -
+            [detrás] => -
+        )
+
+    [a excepción de] => Array
+        (
+            [aparte] => -
+            [a salvo] => -
+            [excepto] => -
+            [menos] => -
+            [salvo] => -
+            [fuera de] => -
+        )
+
+    [a gusto] => Array
+        (
+            [ad líbitum] => -
+            [a voluntad] => -
+        )
+
+    [a la vez] => Array
+        (
+            [al unísono] => -
+            [unánimente] => -
+        )
+
+)
