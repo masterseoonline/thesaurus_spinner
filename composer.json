@@ -17,8 +17,8 @@
     },
     "autoload": {
        "psr-4": {
-            "EcService\\Command": "EcService/Command",
-            "EcService\\Tools\\Thesaurus": "EcService/Tools/Thesaurus"
+            "EcService\\Command\\": "EcService/Command",
+            "EcService\\Tools\\Thesaurus\\": "EcService/Tools/Thesaurus"
         }
     }
 }
