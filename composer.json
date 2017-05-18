@@ -16,8 +16,9 @@
          "php": ">=5.4"
     },
     "autoload": {
-        "psr-0": { 
-            "EcService/Tools/Thesaurus": "EcService\\Tools\\Thesaurus"
+       "psr-4": {
+            "EcService\\Command": "EcService/Command",
+            "EcService\\Tools\\Thesaurus": "EcService/Tools/Thesaurus"
         }
     }
 }
