@@ -10,7 +10,12 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /*
  * @author Elvis Ciotti <info@info@softwareengineeringsolutions.co.uk>
+ *
+ * # regenerate db
  * php -d memory_limit=4024M app/console thesaurus --regeneratedb
+ *
+ * # test
+ * bin/console fc:thesaurus --locale=en_GB --text=home
  */
 class ThesaurusCommand extends ContainerAwareCommand
 {
