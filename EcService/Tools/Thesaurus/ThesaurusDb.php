@@ -111,7 +111,7 @@ class ThesaurusDb
     {
         // array cache
         if (!isset($this->dbs[$locale]->db)) {
-            $dbFile = __DIR__ . '/dict/' . $locale . '.sqlite';
+            $dbFile = __DIR__ . '/../../../dict/' . $locale . '.sqlite';
             if (!file_exists($dbFile)) {
                 throw new \RuntimeException("$dbFile not found ! ");
             }
