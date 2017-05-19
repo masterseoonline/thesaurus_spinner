@@ -38,7 +38,7 @@ class ThesaurusTwigExtension extends \Twig_Extension
     public function getFilters()
     {
         return [
-            'thesaurus'      => new \Twig_SimpleFilter('thesaurus', function ($text, $locale, array $options = []) {
+            'thesaurus' => new \Twig_SimpleFilter('thesaurus', function ($text, $locale, array $options = []) {
                 return $this->synonymText($locale, $text, $options);
             }),
         ];
@@ -49,6 +49,10 @@ class ThesaurusTwigExtension extends \Twig_Extension
      * - probability default 0.1
      * - debug default false
      * - seed default false
+     *
+     * Given the same seed and probability, the same word is always returned
+     * with prob=1, seed always choose a new word from a synonym
+     * with prob=0, it always return
      *
      * @param $locale
      * @param $text
@@ -85,23 +89,31 @@ class ThesaurusTwigExtension extends \Twig_Extension
     {
         $probability = $options['probability'] ?? 0.1;
         $debugMode = $options['debug'] ?? false;
-        $seed = $options['seed'] ?? false;
+        $seed = $options['seed'] ?? rand(1, 1000);
 
         // skip 1 and 2 char-length english words, normally shit thesaurus
         if (substr($locale, 0, 2) == 'en' && strlen($word) < self::EN_MIN_LENGTH) {
             return null;
         }
-        $syn = $this->thesaurusDb->find($locale, $word);
-        if (count($syn) === 0) {
-            return null; // no syn => exit
+        $synonymsWordToType = $this->thesaurusDb->find($locale, $word);
+        if (count($synonymsWordToType) === 0) {
+            return null;
         }
 
-        $rand = mt_rand(0, 100) / 100;
-        if ($rand > $probability) {
-            return null; // probability
+        if ($probability==0) {
+            return $word;
         }
 
-        $ret = array_rand($syn); // take a random word
+        $realSeed = (int)$seed;
+        if ($probability) {
+            $synonymsWords = array_keys($synonymsWordToType);
+            $toFill = (count($synonymsWords) / $probability) - count($synonymsWords);
+            while($toFill-- > 0){
+                $synonymsWords[] = $word;
+            }
+        }
+        $positionToTake = $realSeed % count($synonymsWordToType);
+        $ret = $synonymsWords[$positionToTake];
 
         if ($debugMode) {
             $ret .= " <!-- $word -->";

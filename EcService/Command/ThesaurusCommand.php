@@ -29,8 +29,10 @@ class ThesaurusCommand extends ContainerAwareCommand
                 ->addOption('text', null, InputOption::VALUE_OPTIONAL)
                 ->addOption('debug', null, InputOption::VALUE_NONE)
                 ->addOption('prob', null, InputOption::VALUE_OPTIONAL)
+                ->addOption('seed', null, InputOption::VALUE_OPTIONAL)
                 ->setDescription(
                     "Thesaurus\n"
+                    . "  bin/console fc:thesaurus --locale=en_GB --text=home\n"
                     . "    Input : text (STDIN)\n"
                     . "    Output: text (translated)"
                 )
@@ -60,7 +62,8 @@ class ThesaurusCommand extends ContainerAwareCommand
         if ($locale = $input->getOption('locale')) {
             $text = $input->getOption('text') ?: $this->getStdin();
             $out = $tExt->synonymText($locale, $text, [
-                'probability' => $input->getOption('prob')?:1,
+                'probability' => $input->getOption('prob'),
+                'seed' => $input->getOption('seed'),
                 'debug' => $input->getOption('debug')
             ]);
             $output->writeln($out);
