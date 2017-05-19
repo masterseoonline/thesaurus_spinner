@@ -2,7 +2,7 @@
 
 namespace Ec\Twig;
 
-use MockeryStub as m;
+use Mockery as m;
 
 class ThesaurusTwigExtensionTest extends \PHPUnit_Framework_TestCase {
 
@@ -25,24 +25,27 @@ class ThesaurusTwigExtensionTest extends \PHPUnit_Framework_TestCase {
     {
         return [
             // empty
-            ['', 'it_IT', 1, false, ''],
+            ['', ''],
             // simple
-            ['casa casa', 'it_IT', 1, false, 'abitazione abitazione'],
+            ['casa casa', 'abitazione abitazione'],
             // skip Upper case things
-            ['casa Casa', 'it_IT', 1, false, 'abitazione Casa'],
+            ['casa Casa', 'abitazione Casa'],
             // two words
-            ['1 casa brutta', 'it_IT', 1, false, 'uno abitazione'],
-            ['casa brutta casa', 'it_IT', 1, false, 'abitazione abitazione'],
-            ['casa 1 brutta casa', 'it_IT', 1, false, 'abitazione uno brutta abitazione'],
-            ['casa brutta casa brutta 1', 'it_IT', 1, false, 'abitazione abitazione uno'],
+            ['1 casa brutta', 'uno abitazione'],
+            ['casa brutta casa', 'abitazione abitazione'],
+            ['casa 1 brutta casa', 'abitazione uno brutta abitazione'],
+            ['casa brutta casa brutta 1',  'abitazione abitazione uno'],
         ];
     }
     
     /**
      * @dataProvider thesaurusProvider
      */
-    public function testthesaurus($text, $locale, $probability, $debug, $expected)
+    public function testthesaurus($text, $expected)
     {
+        $probability = 1;
+        $locale = 'it_IT';
+        $debug = false;
         
         $f = $this->object->getFilters()['thesaurus']->getCallable();
         
