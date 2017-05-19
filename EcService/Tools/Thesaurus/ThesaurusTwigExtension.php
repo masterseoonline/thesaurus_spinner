@@ -104,7 +104,7 @@ class ThesaurusTwigExtension extends \Twig_Extension
             return $word;
         }
 
-        $realSeed = (int)$seed;
+        $realSeed = (int)substr(base_convert(md5($seed), 16, 10), -4); //string to number 1-1000
         if ($probability) {
             $synonymsWords = array_keys($synonymsWordToType);
             $toFill = (count($synonymsWords) / $probability) - count($synonymsWords);
