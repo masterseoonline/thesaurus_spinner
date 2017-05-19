@@ -59,9 +59,11 @@ class ThesaurusCommand extends ContainerAwareCommand
         $tExt = $this->getContainer()->get('twig.thesaurusExtension');
         if ($locale = $input->getOption('locale')) {
             $text = $input->getOption('text') ?: $this->getStdin();
-            $out = $tExt->translateFullText($locale, $text, $input->getOption('prob')?:1, $input->getOption('debug'));
+            $out = $tExt->synonymText($locale, $text, [
+                'probability' => $input->getOption('prob')?:1,
+                'debug' => $input->getOption('debug')
+            ]);
             $output->writeln($out);
-            
         }
     }
     

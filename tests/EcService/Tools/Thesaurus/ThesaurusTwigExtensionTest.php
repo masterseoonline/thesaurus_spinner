@@ -43,14 +43,12 @@ class ThesaurusTwigExtensionTest extends \PHPUnit_Framework_TestCase {
      */
     public function testthesaurus($text, $expected)
     {
-        $probability = 1;
         $locale = 'it_IT';
-        $debug = false;
-        
+
         $f = $this->object->getFilters()['thesaurus']->getCallable();
         
-        $this->assertSame($expected, $f($text, $locale, $probability, $debug));
-        $this->assertSame($text, $f($text, $locale, -1, $debug)); //check that with no probability, nth happens
+        $this->assertSame($expected, $f($text, $locale, ['probability' => 1]));
+        $this->assertSame($text, $f($text, $locale, ['probability' => 0])); //check that with no probability, nth happens
     }
     
     
